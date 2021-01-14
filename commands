@@ -4,5 +4,5 @@ Ver base de datos actual en uso = db
 Seleccionar base de datos para trabajar = use database_name;
 Listar colecciones = show collections;
 Ver contenido de las colecciones = db.collection.find().pretty();
-
+Select like = db.devices.find({"_id": /48575443028C2492/ }).pretty()
 
